@@ -30,7 +30,7 @@ class EncoderCNN(nn.Module):
 
 # Decoder RNN architecture.
 class DecoderRNN(nn.Module):
-    def __init__(self, embed_size, hidden_size, vocab_size, num_layers=2, drop_prob=0.2):
+    def __init__(self, embed_size, hidden_size, vocab_size, num_layers=2, drop_prob=0.5):
 
         super(DecoderRNN, self).__init__()
 
